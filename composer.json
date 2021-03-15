@@ -1,0 +1,31 @@
+{
+    "name": "apimatic/credofasterpartnerapi",
+    "type": "library",
+    "description": "Buy Airtime on the most simplistic System. We abstract all the nitty-gritty leaving you with just the option to specify the account number to receive airtime and how much.   We guarantee 95% uptime, 99% reliability.  Just Request and we will make sure you get, in realtime. If not, you will be notified immediately by events.  Now, what Credo is faster that Credofaster!",
+    "keywords": ["Credofaster Partner Api","API","SDK"],
+    "homepage": "http://partner.credofaster.co.ke",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Admin",
+            "email": "admin@credofaster.co.ke",
+            "homepage": "http://partner.credofaster.co.ke"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "apimatic/unirest-php": "^2.0.0",
+        "apimatic/jsonmapper": "^1.3.1"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "CredofasterPartnerApiLib\\": "src/"
+        }
+    }
+}
